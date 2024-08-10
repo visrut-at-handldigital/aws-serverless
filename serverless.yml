@@ -1,0 +1,31 @@
+service: aws-lambda-typescript
+
+build:
+  esbuild:
+    bundle: true
+    minify: false
+
+patterns:
+  - "src/**/*.ts"
+  - "!src/**/*.test.ts"
+  - "src/**/*.js"
+  - "!src/**/*.test.js"
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+functions:
+  hello:
+    handler: src/hello.handler
+    events:
+      - httpApi:
+          path: /hello
+          method: GET
+
+  helloFromJS:
+    handler: src/hello-from.handler
+    events:
+      - httpApi:
+          path: /hello-from-js
+          method: GET
