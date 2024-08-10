@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@serverless/typescript": "^3.38.0",
     "@types/aws-lambda": "^8.10.142",
     "@types/node": "^22.1.0",
     "glob": "^11.0.0",

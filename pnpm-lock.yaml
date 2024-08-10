@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@serverless/typescript':
-        specifier: ^3.38.0
-        version: 3.38.0
       '@types/aws-lambda':
         specifier: ^8.10.142
         version: 8.10.142
@@ -177,9 +174,6 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
-
-  '@serverless/typescript@3.38.0':
-    resolution: {integrity: sha512-2AZ7SwWNMOfe2sovoBf68FgiQlLH+RuS9MdSMAzXJ/Hx5d0tPZmmLxfUieF7gUGOExe/fhzCAW3akr6wTZuTpQ==}
 
   '@types/aws-lambda@8.10.142':
     resolution: {integrity: sha512-wy2y/2hQKrS6myOS++koXg3N1Hg+LLyPjaggCFajczSHZPqBnOMuT2sdH3kiASrmdBYyM3pmjyz5SoWraRllCQ==}
@@ -496,8 +490,6 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
-
-  '@serverless/typescript@3.38.0': {}
 
   '@types/aws-lambda@8.10.142': {}
 
