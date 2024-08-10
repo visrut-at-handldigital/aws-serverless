@@ -5,11 +5,12 @@ build:
     bundle: true
     minify: false
 
-patterns:
-  - "src/**/*.ts"
-  - "!src/**/*.test.ts"
-  - "src/**/*.js"
-  - "!src/**/*.test.js"
+package:
+  patterns:
+    - "src/**/*.ts"
+    - "!src/**/*.test.ts"
+    - "src/**/*.js"
+    - "!src/**/*.test.js"
 
 provider:
   name: aws
