@@ -13,4 +13,5 @@ test("it should return message as 'Hello'", async () => {
   assert.strictEqual(response.statusCode, 200);
   const body = JSON.parse(response.body);
   assert.strictEqual(body.message, "Hello");
+  assert.strictEqual(body.result, 5);
 });
